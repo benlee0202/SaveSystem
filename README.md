@@ -17,7 +17,7 @@ There are three events which drive the `SaveSystemController`.
 Here is an example of how to use SaveSystem in Unity.
 
 ```c#
-public class SavedView : MonoBehaviour, ISavedViewd
+public class SavedView : MonoBehaviour, ISavedView
 {
     public int ViewID => GetInstanceID();
     public ISavedData SavedData { get; private set; }
